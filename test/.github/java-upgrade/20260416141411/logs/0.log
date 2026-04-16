@@ -1,0 +1,83 @@
+2026-04-16T14:14:11.328Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-04-16T14:14:11.328Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "projectPath": "/home/eslam/Java_Spring_Boot/test",
+  "status": "succeeded"
+}}).
+2026-04-16T14:14:11.328Z [INFO] [Tool.invoke] do invoke.
+2026-04-16T14:14:11.337Z [INFO] Project /home/eslam/Java_Spring_Boot/test is a maven project, try to get java version from pom.xml
+2026-04-16T14:14:11.338Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260416141411,\nSession Dir: /home/eslam/Java_Spring_Boot/test/.github/java-upgrade/20260416141411"
+}}).
+2026-04-16T14:14:11.338Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-04-16T14:14:11.339Z [INFO] Project java version: 21
+2026-04-16T14:14:11.339Z [INFO] Maven project detected.
+2026-04-16T14:14:11.339Z [INFO] Build tool type: mvnw
+2026-04-16T14:14:11.584Z [INFO] JDK: undefined
+2026-04-16T14:14:11.584Z [ERROR] Failed to detect or resolve JDK for the project at /home/eslam/Java_Spring_Boot/test.
+2026-04-16T14:14:11.584Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at /home/eslam/Java_Spring_Boot/test. Please ensure JDK 21 is installed and properly configured on the machine.
+2026-04-16T14:14:11.586Z [INFO] Maven project detected.
+2026-04-16T14:14:11.586Z [INFO] Project /home/eslam/Java_Spring_Boot/test is a maven project, try to get java version from pom.xml
+2026-04-16T14:14:14.110Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-04-16T14:14:14.110Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "/home/eslam/Java_Spring_Boot/test",
+  "sessionId": "20260416141411",
+  "status": "succeeded"
+}}).
+2026-04-16T14:14:14.110Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-04-16T14:14:14.110Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-04-16T14:14:14.110Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-04-16T14:14:14.146Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-04-16T14:14:14.146Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "/home/eslam/Java_Spring_Boot/test",
+  "sessionId": "20260416141411",
+  "status": "succeeded"
+}}).
+2026-04-16T14:14:14.147Z [INFO] [Tool.invoke] do invoke.
+2026-04-16T14:14:14.147Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260416141411,\nSession Dir: /home/eslam/Java_Spring_Boot/test/.github/java-upgrade/20260416141411"
+}}).
+2026-04-16T14:14:14.147Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-04-16T14:14:36.920Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-04-16T14:14:36.920Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260416141411"
+}}).
+2026-04-16T14:14:36.921Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-04-16T14:14:36.921Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-04-16T14:14:36.921Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-04-16T14:14:36.960Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-04-16T14:14:36.960Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260416141411"
+}}).
+2026-04-16T14:14:36.960Z [INFO] [Tool.invoke] do invoke.
+2026-04-16T14:14:36.964Z [INFO] [Tool.invoke]({result: {
+  "message": "No JDK installations found."
+}}).
+2026-04-16T14:14:36.964Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-04-16T14:14:38.589Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-04-16T14:14:38.589Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260416141411"
+}}).
+2026-04-16T14:14:38.589Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-04-16T14:14:38.589Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-04-16T14:14:38.589Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-04-16T14:14:38.638Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-04-16T14:14:38.638Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260416141411"
+}}).
+2026-04-16T14:14:38.638Z [INFO] [Tool.invoke] do invoke.
+2026-04-16T14:14:38.641Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-04-16T14:14:38.642Z [INFO] ----------------------invoked appmod-list-mavens----------------------
